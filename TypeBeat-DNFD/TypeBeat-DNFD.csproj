@@ -6,4 +6,8 @@
     <RootNamespace>TypeBeat_DNFD</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\SwordfishEngine\Swordfish\Swordfish.csproj" />
+  </ItemGroup>
+
 </Project>

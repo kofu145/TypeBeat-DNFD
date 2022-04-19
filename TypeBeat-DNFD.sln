@@ -4,6 +4,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypeBeat-DNFD", "TypeBeat-DNFD\TypeBeat-DNFD.csproj", "{80264102-04EF-4302-AC17-A14ABA19E8B6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{57EC8C90-78C6-48A0-A4B5-9216B815090A} = {57EC8C90-78C6-48A0-A4B5-9216B815090A}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Swordfish", "..\SwordfishEngine\Swordfish\Swordfish.csproj", "{57EC8C90-78C6-48A0-A4B5-9216B815090A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +20,10 @@ Global
 		{80264102-04EF-4302-AC17-A14ABA19E8B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{80264102-04EF-4302-AC17-A14ABA19E8B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{80264102-04EF-4302-AC17-A14ABA19E8B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57EC8C90-78C6-48A0-A4B5-9216B815090A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57EC8C90-78C6-48A0-A4B5-9216B815090A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57EC8C90-78C6-48A0-A4B5-9216B815090A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57EC8C90-78C6-48A0-A4B5-9216B815090A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
